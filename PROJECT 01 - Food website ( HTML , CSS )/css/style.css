@@ -1,0 +1,48 @@
+/* CSS reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS Variables */
+
+:root {
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin: 3px 20px;
+}
+
+#logo img {
+    height: 33px;
+    margin: 3px 5px;
+}
+
+#navabr ul {
+    display: flex;
+}
+
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    font-size: 0.8rem;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 15px;
+    border-radius: 13px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
